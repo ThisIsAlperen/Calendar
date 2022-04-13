@@ -1,13 +1,33 @@
 // Application js code
-const StorageController = (function(){
 
+// Store The Data
+const StorageController = (function () {
+    return {
+
+    }
 })();
-const UIController = (function(){
 
+//
+const UIController = (function () {
+    return {
+        
+    }
 })();
-const ProductController = (function(){
+const ProductController = (function () {
+    
+    return {
+        getData: function(){
 
+        }    
+    }
 })();
-const AppController = (function(Storage,UI,Product){
+const AppController = (function (Storage, UI, Product) {
+    const loadEventListeners = function(){
+       
+    }
+    return {
+        init: function(){
 
-})(StorageController,UIController,ProductController);
+        }
+    }
+})(StorageController, UIController, ProductController);
